@@ -37,6 +37,7 @@ jobs:
         pip install pytest-html
         python -m pytest tests/ --html=report.html
 
+  - publish:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.1
       with:
