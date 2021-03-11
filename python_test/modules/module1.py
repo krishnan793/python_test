@@ -4,4 +4,3 @@ class Module1:
 
     def sum(self, a, b, c):
         return (a + b) / c
-
