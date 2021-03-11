@@ -3,4 +3,4 @@ class Module1:
         pass
 
     def sum(self, a, b, c):
-        return (a+b)/c
+        return (a + b) / c
