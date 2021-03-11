@@ -35,10 +35,10 @@ jobs:
       run: |
         pip install pytest
         pip install pytest-html
-        python -m pytest tests/ --html=report.html
+        python -m pytest tests/ --html=output/report.html
 
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.1
       with:
           name: code-coverage-report
-          path: report.html
+          path: output/
