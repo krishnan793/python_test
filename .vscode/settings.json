@@ -11,6 +11,6 @@
     "python.testing.unittestEnabled": true,
     "files.exclude": {
         "**/__pycache__": true,
-        "**/.pycache": true
+        "**/*.pyc": true
     }
 }
