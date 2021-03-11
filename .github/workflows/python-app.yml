@@ -39,8 +39,8 @@ jobs:
         # dependency list
         deps_list: requirements.txt # default is requirements.txt
         # path of git repo relative to GITHUB_WORKSPACE(no trailing slash)
-        path: /tests # default is 
+        path: pythhon_test # default is 
         # directory of test scripts
         test_dir: . # default is .
         # pattern of the test script name
-        pattern: test_*py # default is test_*.py
+        pattern: test_*.py # default is test_*.py
